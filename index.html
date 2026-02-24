@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nadun Mathuja — Software Developer</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Sora:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
+</head>
+<body>
+
+  <!-- ══════ LOADER ══════ -->
+  <div id="loader" class="loader">
+    <div class="loader-bar"></div>
+  </div>
+
+  <!-- ══════ NAV ══════ -->
+  <nav id="nav" class="nav">
+    <a href="#" class="nav__logo">NM<span>.</span></a>
+    <div class="nav__links" id="navLinks">
+      <a href="#about" class="nav__link">About</a>
+      <a href="#skills" class="nav__link">Skills</a>
+      <a href="#work" class="nav__link">Work</a>
+      <a href="#education" class="nav__link">Education</a>
+      <a href="#contact" class="nav__link">Contact</a>
+    </div>
+    <button class="nav__burger" id="burger" aria-label="Menu">
+      <span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- ══════ HERO ══════ -->
+  <section id="hero" class="hero">
+    <div class="hero__3d">
+      <iframe 
+        src="https://my.spline.design/particles-Szl9SHXKz5xnCp8XR9UFD4Co/"
+        frameborder="0"
+        width="100%"
+        height="100%"
+        loading="lazy"
+        title="3D Particles"
+      ></iframe>
+    </div>
+    <div class="hero__overlay"></div>
+    <div class="hero__content wrap">
+      <p class="hero__tag anim" data-delay="0">Software Developer</p>
+      <h1 class="hero__title">
+        <span class="hero__line"><span class="hero__word anim" data-delay="100">Nadun Mathuja<i>.</i></span></span>
+        
+      </h1>
+      <p class="hero__sub anim" data-delay="400">Clean code &middot; Creative solutions &middot; Full-stack development</p>
+      <div class="hero__btns anim" data-delay="500">
+        <a href="#work" class="btn btn--fill">View Work <i class="ri-arrow-right-up-line"></i></a>
+        <a href="#contact" class="btn btn--ghost">Say Hello</a>
+      </div>
+    </div>
+    <div class="hero__scroll anim" data-delay="700">
+      <div class="hero__scroll-dot"></div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <!-- ══════ PARTICLES BG ══════ -->
+  <canvas id="particles" aria-hidden="true"></canvas>
+
+  <!-- ══════ ABOUT ══════ -->
+  <section id="about" class="section">
+    <div class="wrap">
+      <div class="section__label reveal">01 - About</div>
+      <div class="about">
+        <div class="about__image reveal">
+          <img src="images/profile.jpeg" alt="Nadun Mathuja">
+        </div>
+        <div class="about__right">
+          <div class="about__text reveal">
+            <h2 class="h2">I build things<br>for the web<i>.</i></h2>
+            <p>Motivated Junior Software Developer with hands-on experience in designing, developing, and testing software applications. Skilled in full-stack web development, database management, and system analysis with strong problem-solving abilities.</p>
+            <p>Passionate about continuous learning, emerging technologies, and building real-world software systems that are efficient, scalable, and user-friendly.</p>
+          </div>
+          <div class="about__info reveal">
+            <div class="info-row">
+              <span class="info-label">Name</span>
+              <span>Nadun Mathuja</span>
+            </div>
+            <div class="info-row">
+              <span class="info-label">Location</span>
+              <span>Galle, Sri Lanka</span>
+            </div>
+            <div class="info-row">
+              <span class="info-label">Email</span>
+              <span>nadunmathuja@gmail.com</span>
+            </div>
+            <div class="info-row">
+              <span class="info-label">Degree</span>
+              <span>BEng Software Engineering</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════ SKILLS ══════ -->
+  <section id="skills" class="section section--dark">
+    <div class="wrap">
+      <div class="section__label reveal">02 - Skills</div>
+      <h2 class="h2 reveal">Technologies I<br>work with<i>.</i></h2>
+      <div class="skills">
+        <div class="skill-group reveal">
+          <h3><i class="ri-terminal-box-line"></i> Languages</h3>
+          <div class="tags">
+            <span>Python</span><span>Java</span><span>C#</span><span>JavaScript</span><span>SQL</span>
+          </div>
+        </div>
+        <div class="skill-group reveal">
+          <h3><i class="ri-code-s-slash-line"></i> Web</h3>
+          <div class="tags">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>PHP</span><span>Vite</span>
+          </div>
+        </div>
+        <div class="skill-group reveal">
+          <h3><i class="ri-database-2-line"></i> Databases</h3>
+          <div class="tags">
+            <span>MySQL</span><span>SQL Server</span><span>PostgreSQL</span><span>Supabase</span>
+          </div>
+        </div>
+        <div class="skill-group reveal">
+          <h3><i class="ri-settings-3-line"></i> Tools</h3>
+          <div class="tags">
+            <span>.NET</span><span>Git</span><span>GitHub</span><span>Vercel</span><span>Supabase Auth</span>
+          </div>
+        </div>
+        <div class="skill-group reveal">
+          <h3><i class="ri-user-heart-line"></i> Soft Skills</h3>
+          <div class="tags">
+            <span>Teamwork</span><span>Communication</span><span>Problem Solving</span><span>Quick Learner</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════ PROJECTS ══════ -->
+  <section id="work" class="section">
+    <div class="wrap">
+      <div class="section__label reveal">03 - Work</div>
+      <h2 class="h2 reveal">Selected<br>projects<i>.</i></h2>
+
+      <div class="projects">
+        <article class="project reveal">
+          <span class="project__num">01</span>
+          <div class="project__body">
+            <h3>FinTrack — Finance Dashboard</h3>
+            <p>Full-stack personal finance app with multi-profile expense tracking, budget management, and real-time data visualisation through interactive charts. Row-level security with cloud-synced PostgreSQL, deployed on Vercel.</p>
+            <div class="tags tags--sm">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Vite</span><span>Supabase</span>
+            </div>
+            <a href="https://github.com/Nadun417/FinTrack" target="_blank" rel="noopener" class="project__link">
+              GitHub <i class="ri-arrow-right-up-line"></i>
+            </a>
+          </div>
+        </article>
+
+        <article class="project reveal">
+          <span class="project__num">02</span>
+          <div class="project__body">
+            <h3>Fee Management System</h3>
+            <p>Desktop app to manage athlete registration and automate monthly fee calculations based on training plans, coaching hours, and competition entries. Full database integration and user authentication.</p>
+            <div class="tags tags--sm">
+              <span>C#</span><span>.NET</span><span>SQL Server</span>
+            </div>
+            <a href="https://github.com/Nadun417/Fee-Management-System" target="_blank" rel="noopener" class="project__link">
+              GitHub <i class="ri-arrow-right-up-line"></i>
+            </a>
+          </div>
+        </article>
+
+        <article class="project reveal">
+          <span class="project__num">03</span>
+          <div class="project__body">
+            <h3>E-Commerce Platform</h3>
+            <p>Full-stack fashion retail website with user authentication, shopping cart, and order management. Complete backend system for a seamless online shopping experience.</p>
+            <div class="tags tags--sm">
+              <span>PHP</span><span>MySQL</span><span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+            <a href="https://github.com/Nadun417/E-Commerce-Website" target="_blank" rel="noopener" class="project__link">
+              GitHub <i class="ri-arrow-right-up-line"></i>
+            </a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════ EDUCATION ══════ -->
+  <section id="education" class="section section--dark">
+    <div class="wrap">
+      <div class="section__label reveal">04 - Education</div>
+      <h2 class="h2 reveal">Academic<br>journey<i>.</i></h2>
+
+      <div class="timeline">
+        <div class="tl-item reveal">
+          <span class="tl-date">2026 — 2027</span>
+          <div class="tl-card">
+            <h3>BEng (Hons) Software Engineering</h3>
+            <p>London Metropolitan University · ESOFT Metro Campus</p>
+          </div>
+        </div>
+        <div class="tl-item reveal">
+          <span class="tl-date">2025 — 2026</span>
+          <div class="tl-card">
+            <h3>Pearson BTEC HND in Computing</h3>
+            <p>ESOFT Metro Campus · Software Engineering</p>
+          </div>
+        </div>
+        <div class="tl-item reveal">
+          <span class="tl-date">2023 — 2024</span>
+          <div class="tl-card">
+            <h3>Diploma in Information Technology</h3>
+            <p>ESOFT Metro Campus</p>
+          </div>
+        </div>
+        <div class="tl-item reveal">
+          <span class="tl-date">2021 — 2022</span>
+          <div class="tl-card">
+            <h3>G.C.E. Advanced Level</h3>
+            <p>Mahinda College Galle · Physical Science</p>
+          </div>
+        </div>
+        <div class="tl-item reveal">
+          <span class="tl-date">Certificate</span>
+          <div class="tl-card">
+            <h3>JavaScript - Simplilearn</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════ CONTACT ══════ -->
+  <section id="contact" class="section">
+    <div class="wrap">
+      <div class="section__label reveal">05 — Contact</div>
+      <div class="contact">
+        <div class="contact__left reveal">
+          <h2 class="h2">Let's work<br>together<i>.</i></h2>
+          <p class="contact__sub">Have a project in mind or just want to say hello? I'd love to hear from you.</p>
+          <div class="contact__rows">
+            <a href="mailto:nadunmathuja@gmail.com" class="contact__row">
+              <i class="ri-mail-line"></i>
+              <div><small>Email</small><span>nadunmathuja@gmail.com</span></div>
+            </a>
+            <a href="tel:+94740630246" class="contact__row">
+              <i class="ri-phone-line"></i>
+              <div><small>Phone</small><span>+94 74 06 30 246</span></div>
+            </a>
+            
+          </div>
+          <div class="socials">
+            <a href="https://github.com/Nadun417" target="_blank" rel="noopener"><i class="ri-github-fill"></i></a>
+            <a href="https://linkedin.com/in/nadun-mathuja" target="_blank" rel="noopener"><i class="ri-linkedin-fill"></i></a>
+            <a href="mailto:nadunmathuja@gmail.com"><i class="ri-mail-fill"></i></a>
+          </div>
+        </div>
+        <form class="contact__form reveal" id="form">
+          <div class="field">
+            <input type="text" id="f-name" required placeholder=" ">
+            <label for="f-name">Name</label>
+          </div>
+          <div class="field">
+            <input type="email" id="f-email" required placeholder=" ">
+            <label for="f-email">Email</label>
+          </div>
+          <div class="field">
+            <textarea id="f-msg" rows="4" required placeholder=" "></textarea>
+            <label for="f-msg">Message</label>
+          </div>
+          <button type="submit" class="btn btn--fill btn--block">Send Message <i class="ri-send-plane-line"></i></button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════ FOOTER ══════ -->
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <span class="nav__logo">NM<span>.</span></span>
+      <p>&copy; 2026 Nadun Mathuja. All rights reserved.</p>
+      <div class="socials socials--sm">
+        <a href="https://github.com/Nadun417" target="_blank" rel="noopener"><i class="ri-github-fill"></i></a>
+        <a href="https://linkedin.com/in/nadun-mathuja" target="_blank" rel="noopener"><i class="ri-linkedin-fill"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
