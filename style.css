@@ -185,32 +185,6 @@ i:not([class]) { color: var(--teal); font-style: normal; }
 
 .hero__btns { display: flex; gap: 12px; flex-wrap: wrap; }
 
-.hero__scroll {
-  position: absolute; bottom: 40px; left: 50%;
-  transform: translateX(-50%);
-  display: flex; flex-direction: column; align-items: center; gap: 8px;
-  z-index: 2;
-}
-.hero__scroll span {
-  font-size: 10px; text-transform: uppercase; letter-spacing: .18em;
-  color: var(--txt-m);
-}
-.hero__scroll-dot {
-  width: 16px; height: 26px;
-  border: 1.5px solid var(--teal);
-  border-radius: 10px; position: relative;
-}
-.hero__scroll-dot::after {
-  content: ''; position: absolute;
-  top: 5px; left: 50%; transform: translateX(-50%);
-  width: 3px; height: 6px; border-radius: 2px;
-  background: var(--teal);
-  animation: scrollDot 1.8s ease-in-out infinite;
-}
-@keyframes scrollDot {
-  0%,100% { opacity: 1; transform: translate(-50%, 0); }
-  50%     { opacity: .2; transform: translate(-50%, 6px); }
-}
 
 
 /* hero entrance */
@@ -651,7 +625,6 @@ i:not([class]) { color: var(--teal); font-style: normal; }
   .tl-item { grid-template-columns: 1fr; }
   .tl-date { margin-bottom: -12px; }
 
-  .hero__scroll { display: none; }
   .hero__content { padding-top: 120px; }
 
   .footer__inner { flex-direction: column; gap: 12px; text-align: center; }

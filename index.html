@@ -57,10 +57,6 @@
         <a href="#contact" class="btn btn--ghost">Say Hello</a>
       </div>
     </div>
-    <div class="hero__scroll anim" data-delay="700">
-      <div class="hero__scroll-dot"></div>
-      <span>Scroll</span>
-    </div>
   </section>
 
   <!-- ══════ PARTICLES BG ══════ -->
@@ -95,7 +91,7 @@
             </div>
             <div class="info-row">
               <span class="info-label">Degree</span>
-              <span>BEng Software Engineering</span>
+              <span>BEng (Hons) Software Engineering</span>
             </div>
           </div>
         </div>
@@ -110,33 +106,39 @@
       <h2 class="h2 reveal">Technologies I<br>work with<i>.</i></h2>
       <div class="skills">
         <div class="skill-group reveal">
-          <h3><i class="ri-terminal-box-line"></i> Languages</h3>
+          <h3><i class="ri-layout-4-line"></i> Frontend Development</h3>
           <div class="tags">
-            <span>Python</span><span>Java</span><span>C#</span><span>JavaScript</span><span>SQL</span>
+            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>React.js</span><span>Bootstrap 5</span>
           </div>
         </div>
         <div class="skill-group reveal">
-          <h3><i class="ri-code-s-slash-line"></i> Web</h3>
+          <h3><i class="ri-server-line"></i> Backend Development</h3>
           <div class="tags">
-            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>PHP</span><span>Vite</span>
+            <span>Node.js</span><span>Express.js</span><span>PHP</span><span>EJS</span><span>Flask</span>
           </div>
         </div>
         <div class="skill-group reveal">
-          <h3><i class="ri-database-2-line"></i> Databases</h3>
+          <h3><i class="ri-database-2-line"></i> Database Systems</h3>
           <div class="tags">
             <span>MySQL</span><span>SQL Server</span><span>PostgreSQL</span><span>Supabase</span>
           </div>
         </div>
         <div class="skill-group reveal">
-          <h3><i class="ri-settings-3-line"></i> Tools</h3>
+          <h3><i class="ri-terminal-box-line"></i> Languages</h3>
           <div class="tags">
-            <span>.NET</span><span>Git</span><span>GitHub</span><span>Vercel</span><span>Supabase Auth</span>
+            <span>JavaScript</span><span>Python</span><span>C#</span><span>PHP</span><span>SQL</span>
+          </div>
+        </div>
+        <div class="skill-group reveal">
+          <h3><i class="ri-settings-3-line"></i> Tools &amp; Platforms</h3>
+          <div class="tags">
+            <span>Git</span><span>GitHub</span><span>Vercel</span><span>.NET</span><span>Vite</span><span>Chart.js</span>
           </div>
         </div>
         <div class="skill-group reveal">
           <h3><i class="ri-user-heart-line"></i> Soft Skills</h3>
           <div class="tags">
-            <span>Teamwork</span><span>Communication</span><span>Problem Solving</span><span>Quick Learner</span>
+            <span>Teamwork</span><span>Eager to Learn</span><span>Communication</span><span>Problem Solving</span>
           </div>
         </div>
       </div>
@@ -153,8 +155,36 @@
         <article class="project reveal">
           <span class="project__num">01</span>
           <div class="project__body">
-            <h3>FinTrack — Finance Dashboard</h3>
-            <p>Full-stack personal finance app with multi-profile expense tracking, budget management, and real-time data visualisation through interactive charts. Row-level security with cloud-synced PostgreSQL, deployed on Vercel.</p>
+            <h3>Wildlife Chatbot — Sri Lanka Wildlife Guide</h3>
+            <p>AI-powered chatbot answering questions about Sri Lankan national parks and wildlife — animals, entry fees, directions, best seasons, and safari activities. Built on a bag-of-words neural network for intent classification, with a Flask web interface and a feedback/correction feature that supports model improvement through retraining.</p>
+            <div class="tags tags--sm">
+              <span>Python</span><span>Flask</span><span>TensorFlow/Keras</span><span>NLTK</span><span>NumPy</span><span>JavaScript</span>
+            </div>
+            <a href="https://github.com/Nadun417/Wildlife-Chatbot" target="_blank" rel="noopener" class="project__link">
+              GitHub <i class="ri-arrow-right-up-line"></i>
+            </a>
+          </div>
+        </article>
+
+        <article class="project reveal">
+          <span class="project__num">02</span>
+          <div class="project__body">
+            <h3>SRMSS — Smart Route Management &amp; Scheduling System</h3>
+            <p>Full-stack, multi-tenant bus fleet management app for transport depots. Role-based access control with depot-level data isolation, driver, vehicle and route management, and an interactive route planner built on the Google Maps API (Places search and real-road directions, with an offline distance fallback). Schedule conflict detection prevents vehicle and driver double-booking, alongside a live operational dashboard and PDF reporting with trip-completion and fuel-cost analytics.</p>
+            <div class="tags tags--sm">
+              <span>Node.js</span><span>Express.js</span><span>EJS</span><span>MySQL</span><span>Bootstrap 5</span><span>Google Maps API</span><span>Chart.js</span><span>Puppeteer</span>
+            </div>
+            <a href="https://github.com/Nadun417/Smart-Route-Management-and-Scheduling-System" target="_blank" rel="noopener" class="project__link">
+              GitHub <i class="ri-arrow-right-up-line"></i>
+            </a>
+          </div>
+        </article>
+
+        <article class="project reveal">
+          <span class="project__num">03</span>
+          <div class="project__body">
+            <h3>FinTrack — Personal Finance Dashboard</h3>
+            <p>Full-stack personal finance app with user authentication, multi-profile expense tracking, budget and income management, and real-time data visualisation through doughnut, bar, and line charts. Row-level security with cloud-synced PostgreSQL, deployed on Vercel.</p>
             <div class="tags tags--sm">
               <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Vite</span><span>Supabase</span>
             </div>
@@ -165,7 +195,7 @@
         </article>
 
         <article class="project reveal">
-          <span class="project__num">02</span>
+          <span class="project__num">04</span>
           <div class="project__body">
             <h3>Fee Management System</h3>
             <p>Desktop app to manage athlete registration and automate monthly fee calculations based on training plans, coaching hours, and competition entries. Full database integration and user authentication.</p>
@@ -179,7 +209,7 @@
         </article>
 
         <article class="project reveal">
-          <span class="project__num">03</span>
+          <span class="project__num">05</span>
           <div class="project__body">
             <h3>E-Commerce Platform</h3>
             <p>Full-stack fashion retail website with user authentication, shopping cart, and order management. Complete backend system for a seamless online shopping experience.</p>
@@ -203,14 +233,14 @@
 
       <div class="timeline">
         <div class="tl-item reveal">
-          <span class="tl-date">2026 — 2027</span>
+          <span class="tl-date">Expected 2027</span>
           <div class="tl-card">
-            <h3>BEng (Hons) Software Engineering</h3>
+            <h3>BEng (Hons) Software Engineering (Top-Up)</h3>
             <p>London Metropolitan University · ESOFT Metro Campus</p>
           </div>
         </div>
         <div class="tl-item reveal">
-          <span class="tl-date">2025 — 2026</span>
+          <span class="tl-date">2024 — 2026</span>
           <div class="tl-card">
             <h3>Pearson BTEC HND in Computing</h3>
             <p>ESOFT Metro Campus · Software Engineering</p>
@@ -233,7 +263,8 @@
         <div class="tl-item reveal">
           <span class="tl-date">Certificate</span>
           <div class="tl-card">
-            <h3>JavaScript - Simplilearn</h3>
+            <h3>JavaScript — Simplilearn</h3>
+            <p>Certification</p>
           </div>
         </div>
       </div>
