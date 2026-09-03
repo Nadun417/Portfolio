@@ -90,7 +90,7 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
 
-  /* ── Scroll reveal (IntersectionObserver — no lag) ── */
+  /* ── Scroll reveal (IntersectionObserver, no lag) ── */
   const observer = new IntersectionObserver(
     entries => {
       entries.forEach((entry, i) => {
@@ -128,7 +128,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 
-/* PARTICLE ANIMATION — Canvas, zero dependencies */
+/* PARTICLE ANIMATION - Canvas, zero dependencies */
 
 (function () {
   const canvas = document.getElementById('particles');
